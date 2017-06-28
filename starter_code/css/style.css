@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Open Sans, Helvetica, Arial, sans-serif;
 }
 
 
@@ -65,13 +65,92 @@ body {
 
 }
 
+#header_brand {
+  float: left;
+  padding: 0 10px 10px 60px;
+  color: white;
+}
+
+#tagline {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  clear: both;
+  text-align: center;
+}
+
+#btn1 {
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#btn2 {
+  background-color: #033048;
+  color: white;
+}
+
+#sun {
+  background-color: #f9e42e;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+#bene {
+  background-color: #f0efef;
+}
+
+#benefits {
+  font-size: 20px;
+  font-weight: 700;
+  color: #033048;
+}
+
+#benefits_summary {
+  font-size: 13px;
+  color: #606161;
+}
+
+ul {
+  font-size: 13px;
+  color: #606161;
+}
+
+#quote_background {
+  background: url(../images/testimonial_bg.jpg);
+  height: 394px;
+}
+
+#quote {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+#amanda {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 700px;
 }
 
 footer {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
 
+#footer_brand {
+  color: #f9e42e;
 }
 
 /******************************************
